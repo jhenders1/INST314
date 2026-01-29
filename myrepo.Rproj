@@ -1,0 +1,14 @@
+git clone https://github.com/jhenders1/INST314
+cd myrepo
+ls
+head README.md
+git remote show origin
+
+echo "A line I wrote on my local computer  " >> README.md
+git status
+
+
+
+git add README.md
+git commit -m "A commit from my local computer"
+git push
